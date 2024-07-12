@@ -15,7 +15,7 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"Add frontmatter to an Astro Cactus Post": {
+	"Add frontmatter to an HackSchools Foundation Post": {
 		"scope": "markdown,mdx",
 		"prefix": "frontmatter",
 		"body": [
