@@ -13,7 +13,7 @@ const ogOptions: SatoriOptions = {
 	// debug: true,
 	fonts: [
 		{
-			data: Buffer.from(Inclusive Sans),
+			data: Buffer.from(InclusiveSans),
 			name: "Inclusive Sans",
 			style: "normal",
 			weight: 400,
