@@ -3,7 +3,7 @@ import type { AstroExpressiveCodeOptions } from "astro-expressive-code";
 
 export const siteConfig: SiteConfig = {
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-	author: "The HackSchools Foundation",
+	author: "HackSchools Foundation",
 	// Date.prototype.toLocaleDateString() parameters, found in src/utils/date.ts.
 	date: {
 		locale: "en-GB",
@@ -22,11 +22,7 @@ export const siteConfig: SiteConfig = {
 	// Option to sort posts by updatedDate if set to true (if property exists). Default (false) will sort by publishDate
 	sortPostsByUpdatedDate: false,
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
-	title: "HackSchools Foundation",
-	webmentions: {
-		// Webmention.io API endpoint. Get your own here: https://webmention.io/, and follow this blog post: https://astro-cactus.chriswilliams.dev/posts/webmentions/
-		link: "",
-	},
+	title: "HackSchools Foundation"
 };
 
 // Used to generate links in both the Header & Footer.
@@ -71,6 +67,6 @@ export const expressiveCodeOptions: AstroExpressiveCodeOptions = {
 		return `[data-theme="${theme.name}"]`;
 	},
 	// One dark, one light theme => https://expressive-code.com/guides/themes/#available-themes
-	themes: ["dracula", "github-light"],
-	useThemedScrollbars: false,
+	themes: ["rose-pine", "rose-pine-dawn"],
+	useThemedScrollbars: true,
 };

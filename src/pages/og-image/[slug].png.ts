@@ -1,7 +1,7 @@
 import type { APIContext, InferGetStaticPropsType } from "astro";
 
 import RobotoMonoBold from "@/assets/roboto-mono-700.ttf";
-import RobotoMono from "@/assets/roboto-mono-regular.ttf";
+import InclusiveSans from "@/assets/InclusiveSans-Regular.ttf";
 import { getAllPosts } from "@/data/post";
 import { siteConfig } from "@/site-config";
 import { getFormattedDate } from "@/utils";
@@ -13,8 +13,8 @@ const ogOptions: SatoriOptions = {
 	// debug: true,
 	fonts: [
 		{
-			data: Buffer.from(RobotoMono),
-			name: "Roboto Mono",
+			data: Buffer.from(Inclusive Sans),
+			name: "Inclusive Sans",
 			style: "normal",
 			weight: 400,
 		},
