@@ -36,7 +36,7 @@ export const menuLinks: { path: string; title: string }[] = [
 		title: "About",
 	},
 	{
-		path: "/clubs/",
+		path: "https://tally.so/r/3E081q",
 		title: "Clubs",
 	},
 ];
