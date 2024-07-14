@@ -5,26 +5,25 @@ import { Image } from "astro:assets";
 
 const meta = {
 	description: "About the HackSchools Foundation",
-	title: "About",
+	title: "About Us",
 };
 ---
 
 <PageLayout meta={meta}>
 	<div class="space-y-6">
-		<h1 class="title">About</h1>
+		<h1 class="title">About Us</h1>
 		<p>
-			Hi, I’m a starter Astro. I’m particularly great for getting you started with your own blogging
-			website.
+			Hey! Welcome to the HackSchools Foundation corner of the web.
 		</p>
-		<div class="flex justify-center">
+		<!--<div class="flex justify-center">
 			<Image
 				alt="A cartoon cactus looking at the 'Astro.build' logo"
 				fetchpriority="high"
 				loading="eager"
 				src={aboutImg}
 			/>
-		</div>
-		<p>Here are my some of my awesome built in features:</p>
+		</div>-->
+		<p>We're still very much under development at the moment, but here's what we can tell you.</p>
 		<ul class="list-inside list-disc">
 			<li>I'm ultra fast as I'm a static site</li>
 			<li>I'm fully responsive</li>
@@ -34,14 +33,6 @@ const meta = {
 			<li>Shiki code syntax highlighting</li>
 			<li>Satori for auto generating OG images for blog posts</li>
 		</ul>
-		<p>
-			Clone or fork my <a
-				aria-label="github repository"
-				class="cactus-link inline-block"
-				href="https://github.com/chrismwilliams/astro-cactus"
-				rel="noopener noreferrer"
-				target="_blank">repo</a
-			> if you like me!
-		</p>
+
 	</div>
 </PageLayout>
